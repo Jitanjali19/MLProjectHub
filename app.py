@@ -32,15 +32,6 @@ def project_card(title, dataset, objective, model, performance, link):
 # ---- PROJECTS ----
 
 project_card(
-    "Disaster Risk Prediction",
-    "Kaggle Tabular Dataset (20,000 records, 13 features)",
-    "Predict whether a disaster is major or minor based on features like location, population affected, and economic loss.",
-    "Gaussian Naive Bayes + CatBoost",
-    "Accuracy: 99.95% | AUC: 99.99%",
-    "https://disaster-prediction-app-rhkugqyqhucplrtq8xkhrz.streamlit.app/"
-)
-
-project_card(
     "Handwritten Digits & Operators Recognition",
     "Kaggle Image Dataset (200,331 samples, 16 classes, 28x28 images)",
     "Recognize handwritten digits and mathematical operators using deep learning.",
@@ -59,6 +50,15 @@ project_card(
 )
 
 project_card(
+    "Disaster Risk Prediction",
+    "Kaggle Tabular Dataset (20,000 records, 13 features)",
+    "Predict whether a disaster is major or minor based on features like location, population affected, and economic loss.",
+    "Gaussian Naive Bayes + CatBoost",
+    "Accuracy: 99.95% | AUC: 99.99%",
+    "https://disaster-prediction-app-rhkugqyqhucplrtq8xkhrz.streamlit.app/"
+)
+
+project_card(
     "Credit Card Fraud Detection",
     "European Card Dataset (Highly Imbalanced)",
     "Detect fraudulent transactions using imbalanced learning techniques.",
@@ -73,7 +73,7 @@ project_card(
     "Classify human activities from video clips using deep learning.",
     "CNN + BiLSTM",
     "Accuracy: 87.33%",
-    "https://human-activity-recognition-2awfqzkhqv5ba6ucdx7wdr.streamlit.app/"
+    "https://huggingface.co/spaces/ArunKushwah/VisionAct_AI"
 )
 
 # ---- FOOTER ----
