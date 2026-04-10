@@ -93,7 +93,7 @@ with col1:
 with col2:
     st.markdown('<div class="section-title">🎓 Mentors</div>', unsafe_allow_html=True)
     st.write("""
-    - Dr. K K Shram  
+    - Dr. K K Sharma
     - Dr. Lalit Purohit  
     - Dr. Upendra Singh  
     - Mr. Akshay Gupta
